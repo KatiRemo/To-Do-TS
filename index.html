@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO by Kati Remo</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container taskListEmpty">
+        <header>
+            <h1>Kati's Daily Tasks</h1>
+        </header>
+        <section class="tasks">
+            <ul id="taskList"></ul>
+        </section>
+       
+        <footer>
+            <form id="newTaskForm">
+                <input type="text" name="newTaskInput" id="newTaskInput" placeholder="Create New Task" value=""/>
+                <button id="newTaskInputButton" type="submit"></button>
+                <button id="deleteAll" type="reset"></button>
+            </form>
+        </footer>
+    </div>
+    <script src="/dist/app.js" type="text/javascript" defer></script>
+</body>
+</html>
