@@ -46,7 +46,6 @@ body {
   flex-direction: column;
   width: 300px;
   height: 80vh;
-  border-radius: 20px;
   overflow: hidden;
   background: var(--primary-color);
   transition: var(--theme-transition);

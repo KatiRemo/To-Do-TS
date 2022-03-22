@@ -1,18 +1,10 @@
-# Project Template
+# To-Do App in vanilla TypeScript
 
-This project template can be used to start any TypeScript project from scratch
-The output directory is automatically generated based on tsconfig.json
+A very simple to-do app using typescript
 
-# Steps to follow
+![Alt text](/assets/Empty.png?raw=true "Empty List")
 
-1. `npm install` (to install lightserver)
-2. `npm start` (to start the lightserver)
-3. `tsc --watch` (compile the code to TypeScript)
-4. You can check the localhost:3000
-
-# to-do app (bonus)
-
-a very simple to-do app using typescript
+![Alt text](/assets/List.png?raw=true "Task List")
 
 # Use for reference
 
